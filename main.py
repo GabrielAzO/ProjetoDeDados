@@ -17,34 +17,39 @@ data = pnds.read_csv("imports/4. covid_19_data.csv")
 
 # mostrar os casos confirmados e recuperados de cada região/país 
 
-print (data.groupby("Region")['Confirmed', 'Recovered'].sum())
+dataRegion =  data.groupby("Region")['Confirmed', 'Recovered'].sum()
 
 #--------------------------------------------#
 
 
 # Remover todos os casos em que os confirmados são <10
 
-print (data = data[~(data.Confirmed < 10)])
+dataConfirmed = data = data[~(data.Confirmed < 10)]
 
 
 # Saber qual região temos o maior número de casos, organizar de forma ascendente o top 20
 
-print (data.groupby('Region').Confirmed.sum().sort_values(ascending = False).head(20))
+dataMostCases =  data.groupby('Region').Confirmed.sum().sort_values(ascending = False).head(20)
 
 
 # Menor número de mortes, top 50
 
-print (data.groupby('Region').Deaths.sum().sort_values(ascending = True).head(50))
+dataLessDeaths =  data.groupby('Region').Deaths.sum().sort_values(ascending = True).head(50)
 
 
 # Quantos casos reportados no Brasil até 29/04/2020? 
 # US temos por estado
 
-print (data[data.Region == 'Brazil'])
+dataBrazil =  data[data.Region == 'Brazil']
 
-print (data[data.Region == 'US'])
+dataUSA =  data[data.Region == 'US']
 
 
 # Maior número de casos confirmados forma ascendente
 
-print (data.sort_values( by = ['Confirmed'] , ascending = True).head(50))
+dataConfirmedASC =  data.sort_values( by = ['Confirmed'] , ascending = True).head(50)
+
+
+# inserir variável que deseja ver
+
+print (dataBrazil)

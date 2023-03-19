@@ -4,7 +4,7 @@ Projeto de dados Uninove
 
 ## 💻 Pré-requisitos
 
-Python v3.11 
+* Python v3.11 
 
 ### Bibliotecas usadas
 

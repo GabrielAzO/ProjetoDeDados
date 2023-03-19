@@ -6,7 +6,7 @@ Projeto de dados Uninove
 
 * <a href= "https://www.python.org/downloads/"> Python v3.11 </a>
 
-### Bibliotecas usadas
+### :books: Bibliotecas
 
 * Pandas
 * Seaborn

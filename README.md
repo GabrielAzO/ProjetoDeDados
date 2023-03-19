@@ -8,6 +8,6 @@ Python v3.11
 
 ### Bibliotecas usadas
 
-Pandas
-seaborn
-matplotlib.pyplot
+* Pandas
+* Seaborn
+* Matplotlib.pyplot

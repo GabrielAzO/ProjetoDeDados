@@ -15,8 +15,8 @@ Projeto de dados Uninove
 
 ## Como começar a codar?
 
-1. Baixar o projeto
-2. Rodar em sua IDE de preferência
+1. Utilizar sua IDE de preferência
+2. Clonar o projeto
 3. Instalar as bibliotecas
 4. Criar um novo Branch 
 5. Começar a subir suas atualizações e esperar pelo merge

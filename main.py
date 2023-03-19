@@ -4,7 +4,7 @@ import pandas as pnds
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-data = pnds.read_csv("4. covid_19_data.csv")
+data = pnds.read_csv("csvs/4. covid_19_data.csv")
 
 # decidir heatmap
 

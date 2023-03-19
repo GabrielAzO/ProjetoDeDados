@@ -6,7 +6,7 @@ Projeto de dados Uninove
 
 Python v3.11 
 
-#Bibliotecas usadas
+# Bibliotecas usadas
 
 Pandas
 seaborn

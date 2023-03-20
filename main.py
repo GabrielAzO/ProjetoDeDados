@@ -1,55 +1,36 @@
 # using https://www.kaggle.com/datasets/imdevskp/corona-virus-report
 
-import pandas as pnds
+from classes import *
+import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-data = pnds.read_csv("imports/4. covid_19_data.csv")
 
-# decidir heatmap
+# data = pd.read_csv("imports/4.covid_19_data.csv")
 
+# data['Date'] = pd.to_datetime(data['Date'])
 
-# sns.heatmap(data.isnull())
+# data['Date'] = pd.to_numeric(data['Date'])
+
+# dataHeat = data.drop(columns=['State', 'Region', 'Deaths', 'Recovered'])
+
+# plt.plot(dataHeat['Date'],dataHeat['Confirmed'])
+
+# plt.figure(figsize=(9,9))
+# pivot_table = data.pivot('Date', 'Confirmed','Deaths','Recovered')
+# plt.xlabel('Confirmed', size = 15)
+# plt.ylabel('Date', size = 15)
+# plt.title('HeatMap Geral', size = 15)
+# sns.heatmap(pivot_table, annot=True, fmt=".1f", linewidths=.5, square = True, cmap = 'Blues_r');
+# # decidir heatmap
+# data['Date'] = data['Date'].map(lambda x:x.date())
+
+# sns.heatmap(dataHeat)
 
 # plt.show()
 
 
 
-# mostrar os casos confirmados e recuperados de cada região/país 
+# inserir classe que deseja ver
 
-dataRegion =  data.groupby("Region")['Confirmed', 'Recovered'].sum()
-
-#--------------------------------------------#
-
-
-# Remover todos os casos em que os confirmados são <10
-
-dataConfirmed = data = data[~(data.Confirmed < 10)]
-
-
-# Saber qual região temos o maior número de casos, organizar de forma ascendente o top 20
-
-dataMostCases =  data.groupby('Region').Confirmed.sum().sort_values(ascending = False).head(20)
-
-
-# Menor número de mortes, top 50
-
-dataLessDeaths =  data.groupby('Region').Deaths.sum().sort_values(ascending = True).head(50)
-
-
-# Quantos casos reportados no Brasil até 29/04/2020? 
-# US temos por estado
-
-dataBrazil =  data[data.Region == 'Brazil']
-
-dataUSA =  data[data.Region == 'US']
-
-
-# Maior número de casos confirmados forma ascendente
-
-dataConfirmedASC =  data.sort_values( by = ['Confirmed'] , ascending = True).head(50)
-
-
-# inserir variável que deseja ver
-
-print (dataBrazil)
+dataRegionClass(data)

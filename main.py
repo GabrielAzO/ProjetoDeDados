@@ -6,11 +6,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-# data = pd.read_csv("imports/4.covid_19_data.csv")
+data = pd.read_csv("imports/4.covid_19_data.csv")
 
-# data['Date'] = pd.to_datetime(data['Date'])
+data['Date'] = pd.to_datetime(data['Date'])
 
-# data['Date'] = pd.to_numeric(data['Date'])
+data['Date'] = pd.to_numeric(data['Date'])
 
 # dataHeat = data.drop(columns=['State', 'Region', 'Deaths', 'Recovered'])
 

@@ -1,4 +1,8 @@
 # mostrar os casos confirmados e recuperados de cada região/país
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
 
 class dataRegionClass:
     def __init__(self, data):
@@ -15,11 +19,15 @@ class dataConfirmedClass:
 
 
 # Saber qual região temos o maior número de casos, organizar de forma ascendente o top 20
+# atualmente não funciona
 
 class dataMostCasesClass:
     def __init__(self, data):
-        dataMostCases =  data.groupby('Region').Confirmed.sum().sort_values(ascending = False).head(20)
-        print(dataMostCases)
+        # dataMostCases =  data.groupby('Country/Region').Confirmed.sum().sort_values(ascending = False).head(20)
+        X = data['Country/Region'].head(20)
+        Y = data['Confirmed'].head(20)
+        plt.bar(X, Y)
+        plt.show()
 
 
 # Menor número de mortes, top 50

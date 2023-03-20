@@ -4,14 +4,21 @@ from classes import *
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import numpy as np
 
 
-data = pd.read_csv("imports/4.covid_19_data.csv")
+data = pd.read_csv("imports/full_grouped.csv")
 
 data['Date'] = pd.to_datetime(data['Date'])
 
 data['Date'] = pd.to_numeric(data['Date'])
 
+
+# inserir classe que deseja ver
+
+dataMostCasesClass(data)
+
+#------------------------------------------------------------------------------------------------#
 # dataHeat = data.drop(columns=['State', 'Region', 'Deaths', 'Recovered'])
 
 # plt.plot(dataHeat['Date'],dataHeat['Confirmed'])
@@ -28,9 +35,5 @@ data['Date'] = pd.to_numeric(data['Date'])
 # sns.heatmap(dataHeat)
 
 # plt.show()
+#------------------------------------------------------------------------------------------------#
 
-
-
-# inserir classe que deseja ver
-
-dataRegionClass(data)

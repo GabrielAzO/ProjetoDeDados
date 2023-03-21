@@ -16,7 +16,7 @@ data['Date'] = pd.to_numeric(data['Date'])
 
 # inserir classe que deseja ver
 
-dataMostCasesClass(data)
+dataConfirmedClass(data)
 
 #------------------------------------------------------------------------------------------------#
 # dataHeat = data.drop(columns=['State', 'Region', 'Deaths', 'Recovered'])

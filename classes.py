@@ -1,8 +1,9 @@
-# mostrar os casos confirmados e recuperados de cada região/país
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
+
+# mostrar os casos confirmados e recuperados de cada região/país
 
 class dataRegionClass:
     def __init__(self, data):

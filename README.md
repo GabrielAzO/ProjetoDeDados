@@ -21,30 +21,29 @@ Projeto de dados Uninove
     git clone https://github.com/GabrielAzO/ProjetoDeDados.git
    ```
 3. Instalar as bibliotecas
+```sh
+pip install pandas
+```
 
 ```sh
-   pip install pandas
-   ```
-
-   ```sh
-   pip install seaborn
-   ```
-   ```sh
-   pip install matplotlib  
-   ```
+pip install seaborn
+```
+```sh
+pip install matplotlib  
+```
 
 4. Criar um novo Branch 
 ```sh
-    git checkout -b feature/feature_
-   ```
+git checkout -b feature/feature_
+```
 
 5. Começar a subir suas atualizações e esperar pelo merge
 ```sh
-    git add . 
-   ```
+git add . 
+```
 ```sh
-    git commit -m 'digite algo sobre a feature_' 
-   ```
+git commit -m 'digite algo sobre a feature_' 
+```
 ```sh
-    git push origin feature/feature_
-   ```
+git push origin feature/feature_
+```

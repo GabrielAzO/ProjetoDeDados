@@ -9,6 +9,10 @@ Projeto de dados Uninove
 ### :books: Bibliotecas
 
 * Pandas
+´´´
+pip install pandas
+
+´´´ 
 * Seaborn
 * Matplotlib.pyplot
 

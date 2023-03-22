@@ -18,8 +18,8 @@ Projeto de dados Uninove
 1. Utilizar sua IDE de preferência
 2. Clonar o projeto
 ```sh
-    git clone https://github.com/GabrielAzO/ProjetoDeDados.git
-   ```
+git clone https://github.com/GabrielAzO/ProjetoDeDados.git
+```
 3. Instalar as bibliotecas
 ```sh
 pip install pandas

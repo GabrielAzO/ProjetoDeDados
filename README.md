@@ -13,7 +13,13 @@ Projeto de dados Uninove
    pip install pandas
    ```
 * Seaborn
+```sh
+   pip install seaborn
+   ```
 * Matplotlib.pyplot
+```sh
+   pip install matplotlib
+   ```
 
 
 ## Como começar a codar?

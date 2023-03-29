@@ -4,8 +4,8 @@ Projeto de dados Uninove
 
 ## 💻 Pré-requisitos
 
-* <a href= "https://git-scm.com/downloads"> Git </a>
-* <a href= "https://www.python.org/downloads/"> Python v3.11 </a>
+* <a href= "https://git-scm.com/downloads"> Git </a> :arrow_forward: <a href= "https://www.youtube.com/watch?v=Am46OOLgV4s"> Vídeo de Apoio </a> 
+* <a href= "https://www.python.org/downloads/"> Python v3.11 </a> :arrow_forward: <a href= "https://www.youtube.com/watch?v=eaFJwQRUE4k"> Vídeo de Apoio </a> 
 
 ### :twisted_rightwards_arrows: Extensões
 

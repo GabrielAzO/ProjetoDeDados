@@ -41,8 +41,12 @@ pip install matplotlib
 ```sh
 git checkout -b feature/feature_
 ```
+5. Baixar atualizações do projeto
+```sh
+git pull
+```
 
-5. Começar a subir suas atualizações e esperar pelo merge
+6. Começar a subir suas atualizações e esperar pelo merge
 ```sh
 git add . 
 ```

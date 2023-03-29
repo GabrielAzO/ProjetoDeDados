@@ -7,7 +7,7 @@ Projeto de dados Uninove
 * <a href= "https://git-scm.com/downloads"> Git </a> :arrow_forward: <a href= "https://www.youtube.com/watch?v=Am46OOLgV4s"> Vídeo de Apoio </a> 
 * <a href= "https://www.python.org/downloads/"> Python v3.11 </a> :arrow_forward: <a href= "https://www.youtube.com/watch?v=eaFJwQRUE4k"> Vídeo de Apoio </a> 
 
-### :twisted_rightwards_arrows: Extensões
+### :twisted_rightwards_arrows: Extensões GitHub
 
 * Python
 * Pylance
@@ -20,7 +20,7 @@ Projeto de dados Uninove
 
 ## Como começar a codar?
 
-1. Utilizar sua IDE de preferência
+1. Utilizar sua IDE de preferência (<a href="https://code.visualstudio.com/download/"> VsCode</a> , <a href="https://www.jetbrains.com/pycharm/"> PyCharm</a>)
 2. Clonar o projeto
 ```sh
 git clone https://github.com/GabrielAzO/ProjetoDeDados.git

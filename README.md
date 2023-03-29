@@ -7,6 +7,10 @@ Projeto de dados Uninove
 * <a href= "https://git-scm.com/downloads"> Git </a>
 * <a href= "https://www.python.org/downloads/"> Python v3.11 </a>
 
+### :books: Extensões
+
+* Python
+* Pylance
 ### :books: Bibliotecas
 
 * Pandas

@@ -11,12 +11,15 @@ data = pd.read_csv("imports/full_grouped.csv")
 
 data['Date'] = pd.to_datetime(data['Date'])
 
-data['Date'] = pd.to_numeric(data['Date'])
+# data['Date'] = pd.to_numeric(data['Date'])
 
 
 # inserir classe que deseja ver
 
-dataConfirmedClass(data)
+# dataConfirmedClass(data)
+
+plt.plot(data.Date, data.Confirmed)
+plt.show()
 
 #------------------------------------------------------------------------------------------------#
 # dataHeat = data.drop(columns=['State', 'Region', 'Deaths', 'Recovered'])

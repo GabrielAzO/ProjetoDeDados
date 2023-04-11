@@ -34,7 +34,7 @@ pip install pandas
 pip install seaborn
 ```
 ```sh
-pip install matplotlib  
+pip install matplotlib
 ```
 
 4. Criar um novo Branch 

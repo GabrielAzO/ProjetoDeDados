@@ -11,12 +11,20 @@ Projeto de dados Uninove
 
 * Python
 * Pylance
+* Jupyter
+* Jupyter Cell Tags
+* Jupyter Keymap
+* Jupyter Notebook Renderers
+* Jupyter Slide Show
+
 ### :books: Bibliotecas
 
 * Pandas
 * Seaborn
 * Matplotlib.pyplot
-
+* Scipy
+* Bar_chart_race
+* FFmpeg
 
 ## Como começar a codar?
 
@@ -39,6 +47,12 @@ pip install seaborn
 
 ```sh
 pip install matplotlib
+```
+```sh
+pip install Bar_chart_race
+```
+```sh
+pip install Scipy
 ```
 
 4. Criar um novo Branch 

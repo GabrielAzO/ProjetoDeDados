@@ -1,21 +1,21 @@
 # ProjetoDeDados
 Projeto de Ciência de Dados Uninove
 
-Alunos:
+## Alunos:
 
-Gabriel Azevedo Oliveira, RA: 2221202195
+* Gabriel Azevedo Oliveira, RA: 2221202195
 
-Gabriel de Oliveira Pagliuzi, RA: 2223102766
+* Gabriel de Oliveira Pagliuzi, RA: 2223102766
 
-Guilherme Nascimento Oliveira, RA: 2221201417
+* Guilherme Nascimento Oliveira, RA: 2221201417
 
-Jonas Anderson Schwarzer, RA: 2223105230
+* Jonas Anderson Schwarzer, RA: 2223105230
 
-Mikaelly Araujo Galdino, RA: 2223103301
+* Mikaelly Araujo Galdino, RA: 2223103301
 
-Stefany da Silva Gomes, RA: 2223106622
+* Stefany da Silva Gomes, RA: 2223106622
 
-Yago Vinicius Ferreira Roque, RA: 2222104666
+* Yago Vinicius Ferreira Roque, RA: 2222104666
 
 
 ## 💻 Pré-requisitos

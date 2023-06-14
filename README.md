@@ -1,6 +1,8 @@
 # ProjetoDeDados
 Projeto de Ciência de Dados Uninove
 
+## <a href = "https://www.kaggle.com/datasets/imdevskp/corona-virus-report"> Dataset Kaggle </a>
+
 ## Alunos:
 
 * Gabriel Azevedo Oliveira, RA: 2221202195
